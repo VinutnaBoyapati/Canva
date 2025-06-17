@@ -3,7 +3,8 @@ import API from '../api';
 
 const ExportButton = ({ canvasId }) => {
     const handleExport = () => {
-        window.open(`http://localhost:5000/api/canvas/export?id=${canvasId}`);
+        //window.open(`http://localhost:5000/api/canvas/export?id=${canvasId}`);
+        window.open(`https://canvabuilder.onrender.com/api/canvas/export?id=${canvasId}`);
     };
 
     return (
