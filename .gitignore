@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Vercel directories
+.vercel/
+
+# Build directories for frontend and backend
+/frontend/build/
+/frontend/node_modules/
+/backend/node_modules/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
